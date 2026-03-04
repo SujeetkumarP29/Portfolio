@@ -60,22 +60,22 @@ const videoSource = document.getElementById("videoSource");
 const closeBtn = document.querySelector(".close-modal");
 
 // Project cards
-const qualityProject = document.getElementById("qualityProject");
-const carpoolProject = document.getElementById("carpoolProject");
+// const qualityProject = document.getElementById("qualityProject");
+// const carpoolProject = document.getElementById("carpoolProject");
 
 // Quality Management Video
-qualityProject.addEventListener("click", function () {
-    videoSource.src = "/videos/qualitymanegement.mp4";
-    video.load();
-    modal.style.display = "flex";
-});
+// qualityProject.addEventListener("click", function () {
+//     videoSource.src = "/videos/qualitymanegement.mp4";
+//     video.load();
+//     modal.style.display = "flex";
+// });
 
-// Carpool Video
-carpoolProject.addEventListener("click", function () {
-    videoSource.src = "/videos/carpool.mp4";
-    video.load();
-    modal.style.display = "flex";
-});
+// // Carpool Video
+// carpoolProject.addEventListener("click", function () {
+//     videoSource.src = "/videos/carpool.mp4";
+//     video.load();
+//     modal.style.display = "flex";
+// });
 
 // Close button
 closeBtn.addEventListener("click", function () {
